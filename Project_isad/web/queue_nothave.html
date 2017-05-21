@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <title>Automobile Maintenance</title>
+
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+
+
+
+    <body>
+
+        <nav class="light-blue lighten-1" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="index.jsp" class="brand-logo">Automobile Maintenance</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="promotion.html">Promotion</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="LogoutServlet">Logout</a></li>
+                </ul>
+
+
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+            </div>
+        </nav>
+
+
+
+
+        <div class="row">
+            <div class="col s12"></div>
+        </div>
+        <div class="row">
+            <div class="col s12"></div>
+        </div>
+        <div class="row">
+            <div class="col s12"></div>
+        </div>
+        <div class="row">
+            <div class="col s12"></div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col s4"></div>
+            <div class="col s4"><img class="responsive-img" src="images/queue_nothave.png"></div>
+            <div class="col s4"></div>
+        </div>
+
+
+
+
+
+        <form action="Queue_nothaveServlet" class="container">
+
+
+            <div class="row">
+
+                <div class="container">
+                    <div class="input-field">
+                        <i class="material-icons prefix">directions_car</i>
+                        <input placeholder="ทะเบียนรถ" name="car_regis" id="first_name" type="text" class="validate" style="font-size: 50px">
+                        <label for="first_name">ทะเบียนรถ</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="input-field">
+                        <i class="material-icons prefix">color_lens</i>
+                        <input placeholder="สี" name="car_color" id="first_name" type="text" class="validate" style="font-size: 50px">
+                        <label for="first_name">สี</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="input-field">
+                        <i class="material-icons prefix">loyalty</i>
+                        <input placeholder="Brand" name="car_brand" id="first_name" type="text" class="validate" style="font-size: 50px">
+                        <label for="first_name">Brand</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="input-field">
+                        <i class="material-icons prefix">motorcycle</i>
+                        <input placeholder="รุ่น" name="car_gen" id="first_name" type="text" class="validate" style="font-size: 50px">
+                        <label for="first_name">รุ่น</label>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="row center">
+
+
+
+
+
+                <input name="Submit" type="submit" id="download-button" class="btn-large grey darken-1">
+
+
+
+            </div>
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+
+    </body>
+</html>
